@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    padding-top: 1rem;
+    background-color: #111;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    outline: none;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+.otpInput{
+    width: 40px;
+    height: 40px;
+    border-radius: .4rem;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.2em;
+}
+input:focus{
+    box-shadow:0 0 1rem rgb(212, 212, 212) ;
+}
